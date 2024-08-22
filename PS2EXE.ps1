@@ -1,4 +1,4 @@
-function PS1ToEXE {
+function PS2EXE {
     Param (
         [string]$content,
 		[string]$outputFile
