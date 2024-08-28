@@ -7,5 +7,15 @@ iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/
 ```
 
 ```
-PS2EXE -content $script -outputFile C:\Users\User\Desktop\file.exe
+$script = Get-Content -Path c:\Users\User\Desktop\script.ps1 -Raw
+```
+
+```
+$script = @'
+<your script here>
+'@
+```
+
+```
+PS2EXE -content $script -outputFile C:\Users\User\Desktop\script.exe
 ```
