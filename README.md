@@ -11,6 +11,10 @@ $script = Get-Content -Path c:\Users\User\Desktop\script.ps1 -Raw
 ```
 
 ```
+$script = (New-Object System.Net.WebClient).DownloadString('script URL')
+```
+
+```
 $script = @'
 <your script here>
 '@
